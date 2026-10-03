@@ -33,8 +33,8 @@ Model **Random Forest Regressor** dipilih sebagai model terbaik dengan hasil eva
 
 ```text
 ├── food_wastage_data.xlsx         # Dataset utama
-├── train food wastage.py                        # Script untuk preprocessing, eksplorasi, melatih model, & menyimpan artefak .pkl
-├── predict food wastage.py                      # Script khusus inferensi/prediksi data baru menggunakan file .pkl
+├── train food wastage.py          # Script untuk preprocessing, eksplorasi, melatih model, & menyimpan artefak .pkl
+├── predict food wastage.py        # Script khusus inferensi/prediksi data baru menggunakan file .pkl
 ├── food_wastage_model.pkl         # Artefak model Random Forest terpilih
 ├── food_wastage_preprocessor.pkl  # Artefak ColumnTransformer (Scaler & Encoder)
 ├── requirements.txt               # Daftar pustaka/dependency Python
